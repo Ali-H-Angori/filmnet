@@ -1,0 +1,78 @@
+body{
+    width: 1920px;
+    background-color: #1C1C1C;
+}
+
+   
+.headerbar{
+    display: flex;
+    background-color: #1C1C1C;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    gap: 12px;
+    flex-direction: row-reverse;
+    width: 1920px;
+    height: 56px;
+    font-size: 14px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.headerbar img{
+    width: 50px;
+    height: 14px;
+}
+.bartext{
+   gap: 12px;
+    
+}
+.search-but{
+}
+.background{
+    background-image: url(images/Imagebackground.png);
+    width: 1920px;
+    height: 1080px;
+    background-position: center;
+    justify-content: flex-end;
+
+}
+
+.movies{
+    
+    padding-top:64px;
+    padding: 120px;
+    flex-direction: column;
+    text-align: end;
+}
+.film{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    padding: 64px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.footer logofilm{
+    flex-direction: column;
+    align-content: space-between;
+}
+.infolist{
+    justify-content: space-between;
+}
+.media-4{
+    border: #ffffff;
+}
+.footer-under{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+}
